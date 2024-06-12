@@ -1,0 +1,136 @@
+/*-------------------------------------------------*/
+/* =  SERVICES
+/*-------------------------------------------------*/
+
+.inn-services {
+    margin-bottom: 30px;
+}
+.inn-services img {
+    width: 100%;
+}
+.inn-services h3 {} .inn-services p {} .inn-services a {} .inn-re-mo-btn {
+    background: #f4364f;
+    padding: 7px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px;
+}
+
+.inn-page-com {}
+
+/*-------------------------------------------------*/
+/* =  TYPHGRAPHY
+/*-------------------------------------------------*/
+
+.typo-com {
+    border: 1px solid #d6d6d6;
+    position: relative;
+    overflow: hidden;
+}
+.head-typo {
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-top: 0px !important;
+}
+.head-typo h1 {
+    margin-top: 0px;
+}
+.head-typo h2 {
+    margin-top: 0px;
+}
+.head-typo h3 {
+    margin-top: 0px;
+    font-weight: 600;
+}
+.head-typo h4 {
+    margin-top: 0px;
+}
+.head-typo h5 {
+    margin-top: 0px;
+}
+.head-typo h6 {
+    margin-top: 0px;
+}
+.head-typo p {}
+/*-------------------------------------------------*/
+/* =  EVENTS
+/*-------------------------------------------------*/
+
+.event-regi {
+    background: var(--primary-color);
+    padding: 7px 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.event-regi:hover{
+    color: white;
+}
+.events {
+    position: relative;
+    overflow: hidden;
+    padding: 15px 0px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.events img {
+    width: 100%;
+}
+.events h3 {} .events span {} .events p {}
+
+/*-------------------------------------------------*/
+/* =  AMINITIES
+/*-------------------------------------------------*/
+
+.aminities {
+    position: relative;
+    overflow: hidden;
+}
+.aminities ul {
+    padding: 0px;
+    padding-top: 25px;
+}
+.aminities ul li {
+    position: relative;
+    overflow: hidden;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+.aminities ul li i {
+    width: 42px;
+    height: 42px;
+    background: #e8c57a;
+    border-radius: 50%;
+    text-align: center;
+    padding: 13px 15px;
+    margin-left: -68px;
+    position: absolute;
+    z-index: 99;
+    border: 1px solid #d4ad5b;
+    color: #ffffff;
+}
+.aminities ul li h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.aminities ul li p {
+    padding-top: 0px;
+    color: #8c8c8c;
+}
+.aminities-line::after {
+    content: '';
+    background: #d6d6d6;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 23px;
+}
+.amini-body {} .amini-body img {
+    width: 100%;
+}

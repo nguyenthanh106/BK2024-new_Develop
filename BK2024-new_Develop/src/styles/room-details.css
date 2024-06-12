@@ -1,0 +1,250 @@
+
+
+.room__content img{
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+.room__info, .room__reviews{
+    border-radius: .5rem;
+    border: 1px solid rgb(229, 231, 235);
+    padding: 2rem;
+}
+
+.room__info h2{
+    font-size: 1.5rem;
+}
+
+.room__info span{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-style: 1rem;
+    color: var(--text-color);
+}
+
+.room__info span i{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}
+
+.room__extra-details{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.room__info h5{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.room__info p{
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.rating__group span{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.room__reviews h4{
+    margin-bottom: 3rem;
+}
+
+.review__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);   
+}
+
+.review__input input{
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+.review__input input:focus{
+    outline: none;
+}
+
+.review__item{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review__item img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+
+.user__reviews{
+    margin-top: 2.5rem;
+}
+
+.review__item h5{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.review__item p{
+    font-size: .9rem;
+    color: var(--text-color);
+}
+
+.review__item h6{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.review__item span i{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.review__item span{
+    font-weight: 500;
+}
+
+/*-------------------------------------------------*/
+/* =  ROOM SHOCIAL SHARE
+/*-------------------------------------------------*/
+
+.room-soc-share {} .room-soc-share ul {
+    margin-bottom: 0px;
+}
+.room-soc-share ul li {
+    float: left;
+    display: inline-block;
+}
+.room-soc-share ul li a {
+    color: #fff;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 2px;
+    background: #333;
+    margin: 2px;
+    font-size: 13px;
+}
+.room-soc-share ul li:nth-child(1) a {
+    background: #3b5998;
+}
+.room-soc-share ul li:nth-child(2) a {
+    background: #dd4b39;
+}
+.room-soc-share ul li:nth-child(3) a {
+    background: #55acee;
+}
+.room-soc-share ul li:nth-child(4) a {
+    background: #0077b5;
+}
+.room-soc-share ul li:nth-child(5) a {
+    background: #3ead19;
+}
+.room-soc-share ul li a i {} .detail-title {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.room-photo-all {
+    position: relative;
+    overflow: hidden;
+}
+.room-photo {
+    padding: 0px !important;
+}
+.room-photo-gal {
+    margin: 0px 5px 5px 0px;
+}
+.room-photo-gal img {
+    padding: 10px;
+}
+.typo-com {} .typo-com input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 2px;
+    background: #fff;
+}
+.typo-com textarea {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 100px;
+    border-radius: 2px;
+    background: #fff;
+}
+.typo-com label {
+    padding: 8px;
+    left: 10px;
+    color: #7f7f7f;
+    font-size: 14px;
+    top: 6px;
+}
+.form-ch-box label {
+    padding: 1px 33px;
+    left: 5px;
+    color: #7f7f7f;
+    font-size: 14px;
+    top: 12px;
+}
+.alert {
+    font-size: 14px;
+}
+.res-menu {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #ece5d3;
+    margin-bottom: 15px;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+.res-menu:hover.res-menu h3 span {
+    background: #dba714;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.res-menu img {
+    float: left;
+    width: 55px;
+    margin-right: 25px;
+}
+.res-menu h3 span {
+    float: right;
+    font-size: 20px;
+    color: #dba714;
+    border: 1px solid #dba714;
+    padding: 3px;
+    border-radius: 2px;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.res-menu h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menu-item {}

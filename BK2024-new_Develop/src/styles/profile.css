@@ -1,0 +1,118 @@
+/* DASHBOARD PROFILE */
+.db-profile {
+    padding: 40px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.db-profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.db-profile h4 {
+    margin-bottom: 10px;
+}
+
+.db-profile p {}
+
+/* PROFILE VIEW */
+.db-profile-view {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.db-profile-view table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.db-profile-view table thead {
+    border-bottom: 2px solid #333;
+}
+
+.db-profile-view table th,
+.db-profile-view table td {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.db-profile-view table th {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.db-profile-view table td {
+    text-align: center;
+    border: 1px solid #dedede;
+}
+
+/* PROFILE EDIT */
+.db-profile-edit {
+    padding: 40px 0px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.db-profile-edit form {}
+
+.db-profile-edit form label {
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.db-profile-edit form input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: calc(100% - 18px); /* Subtract padding and border */
+}
+
+#pro-file-upload {
+    padding: 10px;
+    line-height: 16px;
+    height: 40px;
+    background-color: #3399ff;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pro-sub-btn {
+    background: #3399ff;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+#pro-sub-btn input {}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabled span {}
+
+
